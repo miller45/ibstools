@@ -34,7 +34,7 @@
                 "      ,{|| TBGOTOP(\"hctAnf\")},{|| TBGOBOTTOM(\"hctEnd\")},,,,,,,,,cbUntAnz,{|| NMZHCLFUNC() } )";
             ctrl.codeout = "";
             ctrl.showParamMapping = function () {
-                var paras = splitParametersExpressions(this.codein);
+                var paras = parseCodeSections(this.codein);
                 this.codeout = JSON.stringify(paras, null, 4);
             }
         }
