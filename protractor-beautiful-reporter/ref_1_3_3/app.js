@@ -271,12 +271,11 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
 
     var results = [
     {
-        "description": "should confirm page title|Protractor Demo",
+        "description": "should confirm page title|saucelabs page |Protractor Demo",
         "passed": true,
         "pending": false,
-        "os": "Windows NT",
-        "sessionId": "cd890278d24641e8b17adcacf88d64ab",
-        "instanceId": 6132,
+        "os": "windows nt",
+        "instanceId": 5272,
         "browser": {
             "name": "chrome",
             "version": "77.0.3865.75"
@@ -287,13 +286,106 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
             {
                 "level": "SEVERE",
                 "message": "https://www.saucedemo.com/favicon.ico - Failed to load resource: the server responded with a status of 404 ()",
-                "timestamp": 1568827852178,
+                "timestamp": 1568833251973,
                 "type": ""
             }
         ],
-        "screenShotFile": "images\\001d00c8-00e2-0031-0004-00e900b90046.png",
-        "timestamp": 1568827853429,
-        "duration": 895
+        "screenShotFile": "images\\00c800a8-00f8-0040-005d-00af0040003b.png",
+        "timestamp": null,
+        "duration": null
+    },
+    {
+        "description": "should confirm page title|report reference page |Protractor Demo",
+        "passed": true,
+        "pending": false,
+        "os": "windows nt",
+        "instanceId": 5272,
+        "browser": {
+            "name": "chrome",
+            "version": "77.0.3865.75"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\0073002b-00c2-0089-00ea-00ca00d7003d.png",
+        "timestamp": null,
+        "duration": null
+    },
+    {
+        "description": "should confirm page title|saucelabs page |Protractor Demo",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "bb7b7cf0-c771-40cd-ae6f-89a362c6030d",
+        "instanceId": 2736,
+        "browser": {
+            "name": "firefox",
+            "version": "69.0"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\00ad00b5-0001-0027-0036-009700ee008d.png",
+        "timestamp": null,
+        "duration": null
+    },
+    {
+        "description": "should confirm page title|report reference page |Protractor Demo",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "bb7b7cf0-c771-40cd-ae6f-89a362c6030d",
+        "instanceId": 2736,
+        "browser": {
+            "name": "firefox",
+            "version": "69.0"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\00220042-00a3-00ca-00c2-0043004a00d1.png",
+        "timestamp": null,
+        "duration": null
+    },
+    {
+        "description": "should confirm page title|saucelabs page |Protractor Demo",
+        "passed": true,
+        "pending": false,
+        "os": "macOS",
+        "sessionId": "42F5A4BC-72AE-45C0-91C6-BA55E3370813",
+        "instanceId": 10560,
+        "browser": {
+            "name": "Safari",
+            "version": "12.0"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\00e300af-00a1-00e8-0020-001d005a0035.png",
+        "timestamp": null,
+        "duration": null
+    },
+    {
+        "description": "should confirm page title|report reference page |Protractor Demo",
+        "passed": false,
+        "pending": false,
+        "os": "macOS",
+        "sessionId": "42F5A4BC-72AE-45C0-91C6-BA55E3370813",
+        "instanceId": 10560,
+        "browser": {
+            "name": "Safari",
+            "version": "12.0"
+        },
+        "message": [
+            "InvalidArgumentError: Could not parse requested URL 'data:text/html,<html></html>'"
+        ],
+        "trace": [
+            "error properties: Object({ remoteStacktrace: '' })\n    at <Jasmine>\n    at Object.throwDecodedError (C:\\gitroot\\demo-js\\protractor-jasmine-tests\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (C:\\gitroot\\demo-js\\protractor-jasmine-tests\\node_modules\\selenium-webdriver\\lib\\http.js:563:13)\n    at Executor.execute (C:\\gitroot\\demo-js\\protractor-jasmine-tests\\node_modules\\selenium-webdriver\\lib\\http.js:489:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\0084001b-00d0-007d-00eb-005300c20043.png",
+        "timestamp": null,
+        "duration": null
     }
 ];
 
